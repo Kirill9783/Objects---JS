@@ -28,6 +28,7 @@ function getCar(carName) {
     } else {
         console.log('Автомобиль не найден');
     }
+    return cars[carName];
 }
 
 getCar('audi');
