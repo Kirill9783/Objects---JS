@@ -31,6 +31,18 @@ function getCar(carName) {
     return cars[carName];
 }
 
+/*
+function getCar(carName) {
+    if (cars[carName]) {
+        return cars[carName];
+    } else {
+        console.log('Автомобиль не найден');
+    }
+    return cars[carName];
+}
+ */
+
+
 getCar('audi');
 
 
